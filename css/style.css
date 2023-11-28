@@ -73,7 +73,7 @@ strong{
 }
 
 .card{
-    width: 30%;
+    width: 60%;
     margin: 0 auto;
     float: none; 
     margin-bottom: 10px;
@@ -145,4 +145,26 @@ strong{
     left: 0;
     right: 0;
     z-index: -1;
+}
+
+#spacingDiv{
+    display: none;
+}
+
+@media screen and (min-width: 900px){
+    .card{
+        width: 30%;
+        margin: 0 auto;
+        float: none; 
+        margin-bottom: 10px;
+    }
+    #jobfooter{
+        margin-top: 0;
+        position: fixed;
+        bottom: 0;
+        text-align: center;
+    }
+    #spacingDiv{
+        display: inline;
+    }
 }
