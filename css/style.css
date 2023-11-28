@@ -1,0 +1,148 @@
+*{
+    font-family: 'Inria Sans', sans-serif;
+}
+body{
+    background-color:#ddf2ee;
+}
+header{
+    display: grid;
+    background-color: #bdede5;
+    color: #044338;
+}
+main{
+    color: #044338;
+}
+a{
+    color: #044338 !important;
+}
+.btn{
+    background-color: #8edfd0;
+    color: #044338;
+}
+.btn:hover{
+    background-color: #c9f6ee;
+    border-color:#35b19c;
+}
+.btn:focus{
+    background-color: #c9f6ee;
+    border-color:#35b19c;
+}
+.border-dark{
+    color: black;
+}
+.btn-primary{
+    border-color: #044338;
+}
+.btn-info{
+    border-color: #044338;
+}
+.covered{
+    position:relative;
+    padding: 10vw;
+}
+#homeBgImg1{
+    background-image: url(../img/homepage1.jpg);
+    opacity:0.25;
+    background-size: cover;
+    background-position:center;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left: 0;
+    right: 0;
+}
+#homeBgImg2{
+    background-image: url(../img/homepage2.jpg);
+    opacity:0.25;
+    background-size: cover;
+    background-position:center;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left: 0;
+    right: 0;
+}
+
+strong{
+    display: block;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #044338;
+    background-color: #ccf0ea;
+}
+
+.card{
+    width: 30%;
+    margin: 0 auto;
+    float: none; 
+    margin-bottom: 10px;
+}
+
+#foundListing {
+    text-decoration: underline;
+}
+
+#blank{
+    color:#ddf2ee;
+}
+
+#confirImg{
+    background-image: url(../img/confirm.jpg);
+    opacity:0.25;
+    background-size: cover;
+    background-position:center;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+#listingsTitle, #appTitle{
+    text-decoration: underline;
+}
+
+#listingList, #appList{
+    list-style-type: none;
+}
+
+#addImg{
+    background-image: url(../img/addconfirm.jpg);
+    opacity:0.25;
+    background-size: cover;
+    background-position:center;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+#denyImg{
+    background-image: url(../img/denyconfirm.jpg);
+    opacity:0.25;
+    background-size: cover;
+    background-position:center;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+#contactImg{
+    background-image: url(../img/contactconfirm.jpg);
+    opacity:0.25;
+    background-size: cover;
+    background-position:center;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
