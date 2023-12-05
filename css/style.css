@@ -151,6 +151,22 @@ strong{
     display: none;
 }
 
+#backButtonMobile{
+    display: inline;
+}
+
+#backButton{
+    display: none;
+}
+
+#applicationButtonMobile{
+    display: inline;
+}
+
+#applicationButton{
+    display: none;
+}
+
 @media screen and (min-width: 900px){
     .card{
         width: 30%;
@@ -166,5 +182,18 @@ strong{
     }
     #spacingDiv{
         display: inline;
+    }
+    #backButtonMobile{
+        display: none;
+    }
+    #backButton{
+        display: inline;
+    }
+    #applicationButton{
+        display: inline;
+    }
+    
+    #applicationButtonMobile{
+        display: none;
     }
 }
